@@ -1,0 +1,31 @@
+{
+    "name": "popContrast",
+    "displayName": "KapoorSpecial",
+    "description": "colourful and contrasty",
+    "version": "0.0.1",
+    "publisher": "HimanshuKapoor",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kapoor17/VSCode-Theme.git"
+    },
+    "keywords": [
+        "theme",
+        "popContrast",
+        "kapoorSpecial"
+    ],
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PopContrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PopContrast-color-theme.json"
+            }
+        ]
+    }
+}
